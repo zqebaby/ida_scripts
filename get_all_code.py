@@ -1,7 +1,3 @@
-
-
-
-
 funName = idc.AskStr("JNI_OnLoad", "function name")
 funAddr = LocByName(funName)
 if funAddr == BADADDR:
